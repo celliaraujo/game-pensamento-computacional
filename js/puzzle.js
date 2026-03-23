@@ -1,4 +1,4 @@
-const puzzles = await fetch('js/puzzles.json').then((response) => response.json());
+const puzzles = await fetch('./js/puzzles.json').then((response) => response.json());
 
 const boardDiv = document.getElementById("board");
 const comandosDiv = document.getElementById("commands");
