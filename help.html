@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Progamix</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="logo-game"></div>
+    <div class="help-tela">
+        <h1>COMO JOGAR</h1>
+        <div class="bloco-1">
+            <p>Clique no slot da barra de comandos onde deseja inserir o comando.</p>
+            <img src="imgs/help-barra-comandos.svg" alt="barra-comandos">
+            <p>E escolha uma das opções no menu de comandos que se abrirá:</p>
+
+            <img src="imgs/help-menu-movimento.svg" alt="menu-comando">
+            <p><i><strong>Respectivos comandos:</strong> Girar à direita, Mover, Girar à esquerda.</i></p>
+
+        </div>
+
+        <div class="bloco-1">
+            <p><strong>Chamada de Sequência:</strong></p>
+            <img src="imgs/help-menu-sequencia.svg" alt="">
+            <p>Chama a sequência de comandos contida na barra referenciada.</p>
+        </div>
+        <div class="bloco-1">
+            <p><strong>Condicionais para execução:</strong></p>
+            <img src="imgs/help-menu-cores.svg" alt="">
+            <p>As cores são condicionais para execução de um comando. Por exemplo:</p>
+            <img src="imgs/help-menu-cores-exemplo.svg" alt="">
+            <p>O comando "Mover" é executado se a nave estiver sobre um quadrado verde.</p>
+            <p>A <strong>cor branca</strong> representa ausência de condição para o movimento. Ou seja, se não tiver cor
+                no comando a nave fará o movimento independente da cor em que estiver posicionada.</p>
+        </div>
+        <div class="bloco-2">
+            <div class="help-botoes">
+                <div>
+                    <img src="imgs/btn-delete.svg" alt="">
+                    <p>Apaga o comando selecionado.</p>
+                </div>
+                <div>
+                    <img src="imgs/btn-execute.svg" alt="">
+                    <p>Inicia a execução dos comandos.</p>
+                </div>
+                <div>
+                    <img src="imgs/btn-clear.svg" alt="">
+                    <p>Limpa os comandos de todas as barras.</p>
+                </div>
+                <div>
+                    <img src="imgs/btn-stop.svg" alt="">
+                    <p>Pausa a execução dos comandos.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <button onclick="location.href='./game.html'" class="btn-jogar" id="jogar"></button>
+    </div>
+
+</body>
+
+</html>

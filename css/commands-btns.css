@@ -1,0 +1,59 @@
+/* .slot-command{
+    width: 90%;
+    height: 90%;    
+    background-image: none;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 5px;
+    mix-blend-mode: multiply;
+    background-blend-mode: multiply;
+} */
+
+.btn{
+    min-height: 14px;
+    min-width: 14px;
+    width: 25%;
+    height: 25%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-up{
+    background-image: url('../imgs/btn-up.svg');
+}
+.btn-turn-right{
+    background-image: url('../imgs/btn-turn-right.svg');
+}
+.btn-turn-left{
+    background-image: url('../imgs/btn-turn-left.svg');
+}
+.btn-delete{
+    background-image: url('../imgs/btn-delete.svg');
+}
+.btn-p1{
+    background-image: url('../imgs/btn-p1.svg');
+}
+.btn-p2{
+    background-image: url('../imgs/btn-p2.svg');
+}
+.btn-p3{
+    background-image: url('../imgs/btn-p3.svg');
+}
+.btn-p4{
+    background-image: url('../imgs/btn-p4.svg');
+}
+.btn-blue{
+    background-image: url('../imgs/btn-blue.svg');
+}
+.btn-red{
+    background-image: url('../imgs/btn-red.svg');
+}
+.btn-green{
+    background-image: url('../imgs/btn-green.svg');
+}
+.btn-nocolor{
+    background-image: url('../imgs/btn-nocolor.svg');
+}

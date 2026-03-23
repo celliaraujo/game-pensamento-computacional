@@ -1,0 +1,13 @@
+.player{
+    position: absolute;
+    background-image: url('../imgs/player.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 100;
+    
+}
+
+.transition-on{
+    transition: all 300ms;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Progamix</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/puzzle.css">
+    <link rel="stylesheet" href="css/player.css">
+    <link rel="stylesheet" href="css/commands.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/commands-btns.css">
+    <link rel="stylesheet" href="css/msg.css">
+</head>
+
+<body>
+    <div class="logo-game"></div>
+    <div class="game">
+        <div class="tela-msg">
+            <div class="msg"></div>
+        </div>
+        <div class="popup" id="popup" onclick="closePopup(this)">
+            <div class="commands-popup" id="commands-popup">
+                <div class="btn btn-up" id="btn-up" onclick="addCommand(this)"></div>
+                <div class="btn btn-turn-right" id="btn-turn-right" onclick="addCommand(this)"></div>
+                <div class="btn btn-turn-left" id="btn-turn-left" onclick="addCommand(this)"></div>
+                <div class="btn btn-delete" id="btn-delete" onclick="addCommand(this)"></div>
+                <div class="btn btn-p1" id="btn-p1" onclick="addCommand(this)"></div>
+                <div class="btn btn-p2" id="btn-p2" onclick="addCommand(this)"></div>
+                <div class="btn btn-p3" id="btn-p3" onclick="addCommand(this)"></div>
+                <div class="btn btn-p4" id="btn-p4" onclick="addCommand(this)"></div>
+                <div class="btn btn-blue" id="btn-blue" onclick="addColor(this)"></div>
+                <div class="btn btn-green" id="btn-green" onclick="addColor(this)"></div>
+                <div class="btn btn-red" id="btn-red" onclick="addColor(this)"></div>
+                <div class="btn btn-nocolor" id="btn-nocolor" onclick="addColor(this)"></div>
+            </div>
+        </div>        
+        <div class="top">
+            <div class="status">
+                <div class="level">
+                    <div class="stage-icon"></div>
+                    <div class="level-text">1</div>
+                </div>
+                <div class="score">
+                    <div class="score-icon"></div>
+                    <div class="score-text">0</div>
+                </div>
+                <div class="btn-full" onclick="fullScreen()"></div>
+                <button onclick="location.href='./help.html'" class="btn-help"></button>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="board" id="board"></div>
+        </div>
+
+        <div class="commands" id="commands"></div>
+
+        <div class="bottom">
+
+            <button class="btn-execute"></button>
+            <button class="btn-clear" onclick="clearCommandsHTML()"></button>
+            <button class="btn-stop"></button>
+        </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+    <script src="js/commands.js"></script>
+</body>
+
+</html>
