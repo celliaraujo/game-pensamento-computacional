@@ -78,7 +78,7 @@
     display: flex;
     flex-wrap: wrap;    
     align-content: space-evenly;
-    background-image: url('./imgs/popup-comandos.svg');
+    background-image: url('../imgs/popup-comandos.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

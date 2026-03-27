@@ -22,38 +22,38 @@
 }
 
 .btn-up{
-    background-image: url('./imgs/btn-up.svg');
+    background-image: url('../imgs/btn-up.svg');
 }
 .btn-turn-right{
-    background-image: url('./imgs/btn-turn-right.svg');
+    background-image: url('../imgs/btn-turn-right.svg');
 }
 .btn-turn-left{
-    background-image: url('./imgs/btn-turn-left.svg');
+    background-image: url('../imgs/btn-turn-left.svg');
 }
 .btn-delete{
-    background-image: url('./imgs/btn-delete.svg');
+    background-image: url('../imgs/btn-delete.svg');
 }
 .btn-p1{
-    background-image: url('./imgs/btn-p1.svg');
+    background-image: url('../imgs/btn-p1.svg');
 }
 .btn-p2{
-    background-image: url('./imgs/btn-p2.svg');
+    background-image: url('../imgs/btn-p2.svg');
 }
 .btn-p3{
-    background-image: url('./imgs/btn-p3.svg');
+    background-image: url('../imgs/btn-p3.svg');
 }
 .btn-p4{
-    background-image: url('./imgs/btn-p4.svg');
+    background-image: url('../imgs/btn-p4.svg');
 }
 .btn-blue{
-    background-image: url('./imgs/btn-blue.svg');
+    background-image: url('../imgs/btn-blue.svg');
 }
 .btn-red{
-    background-image: url('./imgs/btn-red.svg');
+    background-image: url('../imgs/btn-red.svg');
 }
 .btn-green{
-    background-image: url('./imgs/btn-green.svg');
+    background-image: url('../imgs/btn-green.svg');
 }
 .btn-nocolor{
-    background-image: url('./imgs/btn-nocolor.svg');
+    background-image: url('../imgs/btn-nocolor.svg');
 }
