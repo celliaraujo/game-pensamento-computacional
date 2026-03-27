@@ -1,7 +1,7 @@
 const popup = document.getElementById("commands-popup");
 const popupMask = document.getElementById("popup");
 const btnExecute = document.querySelector(".btn-execute");
-const imgUrl = 'url(../imgs/';
+const imgUrl = 'url(./imgs/';
 const help = document.querySelector(".como-jogar");
 
 var slotToAdd;
